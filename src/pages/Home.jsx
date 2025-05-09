@@ -5,6 +5,7 @@ import desco from "../assets/org/desco.png";
 import nesco from "../assets/org/nesco.png";
 import wasa from "../assets/org/wasa.png";
 import pgcb from "../assets/org/pgcb.png";
+import Slider from "../components/Slider";
 
 const Home = () => {
   useEffect(() => {
@@ -27,7 +28,9 @@ const Home = () => {
           </button>
         </div>
       </section>
-
+        <section>
+          <Slider></Slider>
+        </section>
       {/* Organization Icons Section */}
       <section className="py-12 bg-white">
         <div className="max-w-5xl mx-auto px-4">
