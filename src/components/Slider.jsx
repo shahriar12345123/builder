@@ -1,4 +1,4 @@
-// src/components/Slider.jsx
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -13,17 +13,32 @@ const Slider = () => {
                 autoplay={{ delay: 2500 }}
                 pagination={{ clickable: true }}
                 modules={[Autoplay, Pagination]}
-                className="w-full max-w-5xl mx-auto max-h-11/12 rounded-lg overflow-hidden"
+                className="w-full max-w-5xl mx-auto max-h-96 rounded-lg overflow-hidden"
             >
-                <SwiperSlide className="h-56 max-w-full">
-                    <img src="https://i.ibb.co.com/JL8hBXy/First-Bankof-US00-crop.jpg" alt="Finance 1" />
+                <SwiperSlide className="w-5xl h-96 flex justify-center items-center">
+                    <img
+                        src="https://i.ibb.co.com/bMNKb9Xn/pgcb.jpg"
+                        alt="PGCB"
+                        className="w-5xl h-96 object-contain rounded-lg shadow-md"
+                    />
                 </SwiperSlide>
-                <SwiperSlide className="h-56 max-w-full">
-                    <img className="max-h-8/12" src=" https://i.ibb.co.com/VYdFzrzB/digital-banking-fintech-big-tech.webp         " alt="Banking 2" />
+
+                <SwiperSlide className="w-5xl h-96 flex justify-center items-center">
+                    <img
+                        src="https://i.ibb.co.com/gqkYVkS/wasa.png"
+                        alt="WASA"
+                        className="w-full h-96 object-contain rounded-lg shadow-md"
+                    />
                 </SwiperSlide>
-                <SwiperSlide className="h-56 max-w-full">
-                    <img src="https://i.ibb.co.com/JL8hBXy/First-Bankof-US00-crop.jpg" alt="Payment 3" />
+
+                <SwiperSlide className="w-5xl h-96 flex justify-center items-center">
+                    <img
+                        src="https://i.ibb.co.com/JL8hBXy/First-Bankof-US00-crop.jpg"
+                        alt="Payment 3"
+                        className="w-5xl h-96 object-contain rounded-lg shadow-md"
+                    />
                 </SwiperSlide>
+
             </Swiper>
         </div>
     );

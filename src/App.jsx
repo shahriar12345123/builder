@@ -2,7 +2,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
-import Bills from "./pages/Bills/Bills";
+import Bills from "./pages/Bills";
 import BillDetails from "./pages/BillDetails";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: "bills",
-        element: <Bills />,
+        element: <PrivateRoute><Bills /></PrivateRoute>,
       },
       {
         path: "bills/:id",

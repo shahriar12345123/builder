@@ -4,9 +4,15 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../providers/AuthProvider";
 
 const Bills = () => {
-  const { paidBills } = useContext(AuthContext);
+  const { user, paidBills, loading } = useContext(AuthContext); 
   const [filter, setFilter] = useState("all");
 
+  // Show loading message while waiting for data to be ready
+  if (loading) {
+    return <div>Loading...</div>; 
+  }
+
+  // Filtering bills based on selected type
   const filteredBills = filter === "all"
     ? billsData
     : billsData.filter(bill => bill.bill_type === filter);
@@ -49,9 +55,9 @@ const Bills = () => {
               {paidBills.includes(bill.id) ? (
                 <span className="text-green-600 text-lg font-bold ml-2">✅</span>
               ) : (
-                <Link to={`/bill/${bill.id}`}>
+                <Link to={`/bills/${bill.id}`}>
                   <button className="bg-blue-600 text-white px-4 py-2 rounded">
-                    Pay
+                    View Details
                   </button>
                 </Link>
               )}

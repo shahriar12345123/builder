@@ -1,9 +1,9 @@
-// src/components/Footer.jsx
+
 import { FaFacebookF, FaYoutube, FaTwitter, FaTelegramPlane } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10 mt-16">
+    <footer className="bg-gray-900 text-gray-300 py-10 md:items-center mt-16">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">MyBank</h2>
