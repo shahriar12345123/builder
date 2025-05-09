@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "bill_type": "electricity",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2942/2942673.png",
+      "organization": "DESCO",
+      "amount": 1890,
+      "due_date": "2025-03-22T06:57:58.110Z"
+    },
+    {
+      "id": 2,
+      "bill_type": "gas",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1032/1032921.png",
+      "organization": "Titas Gas",
+      "amount": 1488,
+      "due_date": "2025-03-28T06:57:58.110Z"
+    },
+    {
+      "id": 3,
+      "bill_type": "internet",
+      "icon": "https://cdn-icons-png.flaticon.com/512/483/483947.png",
+      "organization": "Banglalion",
+      "amount": 999,
+      "due_date": "2025-04-10T06:57:58.110Z"
+    },
+    {
+      "id": 4,
+      "bill_type": "water",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2913/2913461.png",
+      "organization": "WASA",
+      "amount": 750,
+      "due_date": "2025-04-15T06:57:58.110Z"
+    }
+  ]
+  

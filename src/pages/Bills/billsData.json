@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "bill_type": "electricity",
+      "icon": "https://i.ibb.co/4VRR0B7/electricity.png",
+      "organization": "DESCO",
+      "amount": 1890,
+      "due_date": "2025-03-22T06:57:58.110Z"
+    },
+    {
+      "id": 2,
+      "bill_type": "gas",
+      "icon": "https://i.ibb.co/TMPB4Qk/gas.png",
+      "organization": "Tista",
+      "amount": 1488,
+      "due_date": "2025-03-28T06:57:58.110Z"
+    }
+  ]
+  
