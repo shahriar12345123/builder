@@ -13,15 +13,15 @@ const Slider = () => {
                 autoplay={{ delay: 2500 }}
                 pagination={{ clickable: true }}
                 modules={[Autoplay, Pagination]}
-                className="w-full max-w-5xl mx-auto rounded-lg overflow-hidden"
+                className="w-full max-w-5xl mx-auto max-h-11/12 rounded-lg overflow-hidden"
             >
-                <SwiperSlide className="h-64 max-w-full">
+                <SwiperSlide className="h-56 max-w-full">
                     <img src="https://i.ibb.co.com/JL8hBXy/First-Bankof-US00-crop.jpg" alt="Finance 1" />
                 </SwiperSlide>
-                <SwiperSlide className="h-64 max-w-full">
-                    <img src="https://i.ibb.co.com/W4Jjfdfk/club-wasa-holiday-village.jpg" alt="Banking 2" />
+                <SwiperSlide className="h-56 max-w-full">
+                    <img className="max-h-8/12" src=" https://i.ibb.co.com/VYdFzrzB/digital-banking-fintech-big-tech.webp         " alt="Banking 2" />
                 </SwiperSlide>
-                <SwiperSlide className="h-64 max-w-full">
+                <SwiperSlide className="h-56 max-w-full">
                     <img src="https://i.ibb.co.com/JL8hBXy/First-Bankof-US00-crop.jpg" alt="Payment 3" />
                 </SwiperSlide>
             </Swiper>
